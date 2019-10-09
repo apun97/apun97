@@ -1,0 +1,90 @@
+@keyframes bgcolor {
+    0% {
+        background-color: #8b0000
+    }
+
+    50% {
+        background-color: #d4af37
+    }
+
+    100% {
+        background-color: #8b0000
+    }
+}
+
+body {
+  animation: bgcolor ease;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+}
+
+h1 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  -webkit-animation: colorchange 20s infinite alternate;
+  text-align: center;
+  font-size: 5vh;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+
+    color: red;
+  }
+
+  10% {
+
+    color: orange;
+  }
+
+  20% {
+
+    color: green;
+  }
+
+  30% {
+
+    color: blue;
+  }
+
+  40% {
+
+    color: indigo;
+  }
+
+  50% {
+
+    color: violet;
+  }
+
+  60% {
+
+    color: red;
+  }
+
+  70% {
+
+    color: orange;
+  }
+  80% {
+
+    color: green;
+  }
+
+  90% {
+
+    color: blue;
+  }
+
+  100% {
+
+    color: indigo;
+  }
+}
